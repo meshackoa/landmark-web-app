@@ -2,7 +2,7 @@ apiVersion: networking.k8s.io/v1
 kind: NetworkPolicy
 metadata:
   name: mongo-network-policy
-  namespace: landmark
+  namespace: development
 spec:
   podSelector:
     matchLabels:
